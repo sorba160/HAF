@@ -1,0 +1,37 @@
+body{ 
+    background-image: url(https://images.all-free-download.com/images/graphicthumb/ornate_hotel_lobby_picture_1_167663.jpg);
+}  
+.brown{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 2fr ; 
+    grid-gap:10px; 
+    position: relative;
+}
+.nav{ 
+    background-color: rgb(65, 65, 214); 
+    color:rgb(230, 95, 50) ;
+    font-size: 40px; 
+    text-align: right; 
+    margin: 30px 30px 30px 30px ;  
+    padding-bottom: 50px 50px 50px 50px ; 
+    border: 20px solid burlywood;  
+    ;
+     
+} 
+ .wine { 
+    background-image: url(https://i1.wp.com/www.thededicatedhouse.com/wp-content/uploads/2020/05/Wine.jpg?fit=1280%2C720&ssl=1) ;
+     height: 500px;
+     width:800px; 
+     
+    } 
+    .wheel{ 
+        font-size: 100px; 
+        padding: 150px 200px 200px 200px ;  
+        color:darkgreen;
+    }
+     .offer{
+         background-color: darkkhaki; 
+         color: darkslategrey; 
+         margin:20px 20px 40px 20px ; 
+         padding: 10px 10px 10px 10px ;
+     }
