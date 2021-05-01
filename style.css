@@ -1,0 +1,39 @@
+body{ 
+    background-color: darkolivegreen;
+} 
+a:hover{ 
+    background-color: crimson;
+}  
+
+.college {  
+    font-size: 100px;
+     background-color: midnightblue;
+    position: relative;  
+    width: 25px;
+        height: 200px;
+    padding-inline: 100px; 
+    padding-bottom: 100px;
+    margin-bottom: 25%; 
+    margin-top: 25% ;
+    padding-top: 30%; 
+     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);  
+    animation-name: anything; 
+    animation-duration: 8s; 
+    animation-iteration-count: infinite;
+     animation-play-state: running;  
+    animation-direction: reverse; 
+    
+
+} 
+@keyframes anything {
+    from {
+        width: 200px
+    }
+
+    to {
+        width: 350px;
+    }
+} 
+.form201{
+font-size: 75px; padding-bottom: 50px;
+}
